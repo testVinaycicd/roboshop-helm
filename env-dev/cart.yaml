@@ -1,0 +1,8 @@
+component_name: cart
+
+
+configMapData:
+  CATALOGUE_HOST: catalogue
+  CATALOGUE_PORT: "8080"
+  REDIS_HOST: "redis://redis-dev.mikeydevops1.online:6379"
+

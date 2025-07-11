@@ -1,0 +1,9 @@
+component_name: user
+
+
+
+configMapData:
+  MONGO: "true"
+  MONGO_URL: "mongodb://mongo-dev.mikeydevops1.online:27017/catalogue"
+  REDIS_URL: "redis://redis-dev.mikeydevops1.online:6379"
+

@@ -1,0 +1,19 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-test-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check repos
+        if: github.repository == 'vinaybkrishna307/robosho'
+        run: echo "correct repo"
+  all-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: all text
+        run: echo "all text"

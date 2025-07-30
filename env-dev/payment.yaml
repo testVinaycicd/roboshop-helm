@@ -5,7 +5,7 @@ component_name: payment
 configMapData:
   CART_HOST: "cart"
   CART_PORT: "8080"
-  USER_HOST: "user"
+  USER_HOST: "catalogue"
   USER_PORT: "root"
   AMQP_HOST: "rabbitmq-dev.mikeydevops1.online"
   AMQP_USER: "roboshop"

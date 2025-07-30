@@ -4,7 +4,7 @@ schema:
   enabled: true
   jobs:
     - master-data
-
+  extention: js
 
 configmap_data:
   MONGO: "true"
